@@ -1,15 +1,11 @@
-
-# Welcome message
 print("Welcome to the Fantasy Item Shop!")
 
-# Player information
 player_name = input("What is your name? ")
 player_gold = 100
 inventory = []
 
 print(f"\nHello {player_name}! You have {player_gold} gold.")
 
-# Shop items
 shop_items = ["Sword", "Shield", "Potion", "Bow"]
 
 print("\nItems available in the shop:")
@@ -17,7 +13,6 @@ print("\nItems available in the shop:")
 for item in shop_items:
     print(item)
 
-# Shop menu
 while True:
     print("\n=== Fantasy Item Shop ===")
     print("1. Buy Sword (50 gold)")
